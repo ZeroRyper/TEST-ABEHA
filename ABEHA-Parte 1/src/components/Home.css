@@ -1,0 +1,65 @@
+.XPower {
+    background-image: url("./car1/car1-back.jpg"); 
+    background-size: cover; 
+}
+.Extended_Range{
+    background-image: url("./car2/car2-back-desktop.jpg"); 
+    background-size: cover; 
+}
+@media (max-width: 425px) {
+    .XPower {
+        background-image: url("./car1/car1-back-mobile.jpg");       
+        width: 425px; 
+    }
+    .Extended_Range {
+        background-image: url("./car2/car2-back-mobile.jpg"); 
+        width: 425px;
+        }
+
+    
+}
+@media (min-width: 768px) {
+    .XPower {
+        background-image: url("./car1/car1-back-mobile.jpg"); 
+        width:  768px; 
+
+    }
+    .Extended_Range {
+        background-image: url("./car2/car2-back-mobile.jpg"); 
+        width:  768px; 
+
+    }
+
+    
+}
+@media (min-width: 1024px) {
+    .XPower {
+        background-image: url("./car1/car1-back.jpg"); 
+ 
+        width: 1024px; 
+    }
+    .Extended_Range {
+        background-image: url("./car2/car2-back-desktop.jpg");  
+        width: 1024px;
+        }
+
+    
+}
+
+@media (min-width: 1440px) {
+    .XPower {
+        background-image: url("./car1/car1-back.jpg"); 
+ 
+        width: 1440px; 
+    }
+    .Extended_Range {
+        background-image: url("./car2/car2-back-desktop.jpg");  
+        width: 1440px;
+        }
+
+    
+}
+
+
+
+
